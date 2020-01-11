@@ -11,13 +11,12 @@ class CreateAddressesTable extends Migration
     {
         Schema::create($this->table, function (Blueprint $table) {
             $table->bigIncrements('id');
-            $table->string('zip_code');
-            $table->string('city')->nullable();
-            $table->string('state')->nullable();
-            $table->string('street')->nullable();
-            $table->string('complement')->nullable();
-            $table->string('district')->nullable();
-            $table->string('number')->nullable();
+            $table->string('zip_code', 8);
+            $table->string('city', 100)->nullable();
+            $table->string('state', 100)->nullable();
+            $table->string('street', 100)->nullable();
+            $table->string('complement', 100)->nullable();
+            $table->string('district', 100)->nullable();
             $table->timestamps();
             $table->softDeletes();
         });

@@ -104,7 +104,6 @@ class AddressController extends Controller
                 'street'     => $request->street,
                 'complement' => $request->complement,
                 'district'   => $request->district,
-                'number'     => $request->number,                
             ]);
 
             return response()->json([
