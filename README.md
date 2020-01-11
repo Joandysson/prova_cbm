@@ -28,6 +28,6 @@
 
  - Bootstrap
 
-## linguagem
+## Linguagem
 
 - PHP 7
