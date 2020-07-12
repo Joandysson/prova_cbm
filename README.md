@@ -1,7 +1,7 @@
 ## Instalação
 
 - Run composer install
-- Editar .env e setar suas configuraçãoes do banco de dados
+- Editar .env e setar suas configurações do banco de dados
 - Run php artisan key:generate
 - Run php artisan migrate
 
