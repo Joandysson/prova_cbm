@@ -2,6 +2,14 @@
     "name": "laravel/laravel",
     "type": "project",
     "description": "The Laravel Framework.",
+    "authors": [
+        {
+        "name": "Joanddyson Gama",
+        "email": "joandysson.gama@gmail.com",
+        "homepage": "http://joandysson.github.io/",
+        "role": "Developer"
+        }
+    ],
     "keywords": [
         "framework",
         "laravel"

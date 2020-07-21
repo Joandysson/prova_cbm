@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="{{asset('css/style.css')}}">
-    
+
     <link rel="stylesheet" href="{{asset('css/bootstrap.min.css')}}">
     <script src="{{asset('js/jquery-3.4.1.slim.min.js')}}"></script>
     <script src="{{asset('js/bootstrap.min.js')}}"></script>
@@ -18,7 +18,7 @@
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <title>CEP</title>
 </head>
-<body> 
+<body>
     <div class="flex h-vh">
       <div class="w-100 text-center">
         <ul>

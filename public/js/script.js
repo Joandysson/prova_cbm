@@ -244,3 +244,12 @@ function arrayInput() {
         district: district,
     }
 }
+
+async function api(url){
+    zip_code = await $.get(url);
+    return zip_code;
+}
+
+function api_v2(url, callback = (response) => {}){
+    $.get(url, callback);
+}
